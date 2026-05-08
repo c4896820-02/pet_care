@@ -385,7 +385,7 @@ export default function HomePage() {
                     <option>猫咪洗护</option>
                   </select>
                 </div>
-                <input placeholder="希望到店时间，例如：周六下午 3 点" type="text" />
+                <input defaultValue="明早 9:30" placeholder="希望到店时间，例如：周六下午 3 点" type="text" />
                 <textarea placeholder="补充说明，例如体型、毛量、是否胆小、是否有皮肤敏感等" />
                 <button className="submitBtn" type="button">
                   提交预约信息
